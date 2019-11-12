@@ -12,15 +12,19 @@ import { createStackNavigator } from 'react-navigation-stack';
 
 // Screens
 import HomePage from '../HomePage';
+import Welcome from '../Welcome';
 
 const AppNavigator = createStackNavigator(
   {
+    Welcome: {
+      screen: Welcome,
+    },
     Home: {
       screen: HomePage,
     },
   },
   {
-    initialRouteName: 'Home',
+    initialRouteName: 'Welcome',
     headerLayoutPreset: 'center',
     defaultNavigationOptions: {
       headerBackTitle: null,
