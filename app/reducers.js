@@ -25,7 +25,7 @@ function AppReducer(state = initialState, action) {
  */
 export default function createReducer(injectedReducers = {}) {
   const rootReducer = combineReducers({
-    sahaApp: AppReducer,
+    iVeBeenApp: AppReducer,
     // language: languageProviderReducer,
     ...injectedReducers,
   });

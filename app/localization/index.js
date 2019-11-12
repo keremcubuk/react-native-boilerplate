@@ -9,8 +9,7 @@ const locales = RNLocalize.getLocales();
 I18n.init({
   debug: true,
   useLocalStorage: true,
-  // lng: locales[0].languageCode, // Geçici olarak kapatıldı. Default Türkçe istendi.
-  lng: 'tr',
+  lng: locales[0].languageCode,
   fallbackLng: 'tr',
   resources: { tr: { translation: tr }, en: { translation: en }, 'tr-TR': { translation: tr } },
 });

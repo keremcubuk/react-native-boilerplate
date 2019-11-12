@@ -9,6 +9,7 @@ module.exports = {
           app: './app',
           components: './app/components',
           containers: './app/containers',
+          theme: './app/theme',
           utils: './app/utils',
           underscore: 'lodash',
         },

@@ -6,33 +6,44 @@
  */
 
 // Import all the third party stuff
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Provider } from 'react-redux';
+import { Root, StyleProvider } from 'native-base';
 
 // Import root app
 import App from './containers/App';
 
-// Import Language Provider
-// import LanguageProvider from './containers/LanguageProvider';
-// import I18n from './localization';
-// Import i18n messages
-// import { translationMessages } from './i18n';
 import configureStore from './configureStore';
 import createReducer from './reducers';
+import getTheme from 'theme/components';
+import commonColor from 'theme/variables/commonColor';
 
 // Create redux store with history
 const initialState = {};
 const store = configureStore(createReducer, initialState);
 
-const renderInternal = messages => (
-  <Provider store={store}>
-    {/* <LanguageProvider messages={messages}> */}
-      <App />
-    {/* </LanguageProvider> */}
-  </Provider>
-);
+export let navigatorRef;
 
-// const render = () => renderInternal(translationMessages);
+function AppRoot() {
+  useEffect(() => {
+    return () => {
+      navigatorRef = this.navigator;
+    };
+  }, []);
 
-// export default render;
-export default renderInternal;
+  return (
+    <StyleProvider style={getTheme(commonColor)}>
+      <Root>
+        <Provider store={store}>
+          <App
+            ref={nav => {
+              this.navigator = nav;
+            }}
+          />
+        </Provider>
+      </Root>
+    </StyleProvider>
+  );
+}
+
+export default AppRoot;
