@@ -4,19 +4,11 @@
  *
  */
 
-{{#if memo}}
-import React, { memo } from 'react';
-{{else}}
 import React from 'react';
+import { View, Text } from 'react-native';
 {{/if}}
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-{{#if wantHeaders}}
-import { Helmet } from 'react-helmet';
-{{/if}}
-{{#if wantMessages}}
-import { FormattedMessage } from 'react-intl';
-{{/if}}
 {{#if wantActionsAndReducer}}
 import { createStructuredSelector } from 'reselect';
 {{/if}}
@@ -33,9 +25,6 @@ import reducer from './reducer';
 {{#if wantSaga}}
 import saga from './saga';
 {{/if}}
-{{#if wantMessages}}
-import messages from './messages';
-{{/if}}
 
 export function {{ properCase name }}() {
   {{#if wantActionsAndReducer}}
@@ -46,17 +35,9 @@ export function {{ properCase name }}() {
   {{/if}}
 
   return (
-    <div>
-    {{#if wantHeaders}}
-      <Helmet>
-        <title>{{properCase name}}</title>
-        <meta name="description" content="Description of {{properCase name}}" />
-      </Helmet>
-    {{/if}}
-    {{#if wantMessages}}
-      <FormattedMessage {...messages.header} />
-    {{/if}}
-    </div>
+    <View>
+      <Text>{{ properCase name }} Container!</Text>
+    </View>
   );
 }
 
@@ -84,7 +65,4 @@ const withConnect = connect(null, mapDispatchToProps);
 
 export default compose(
   withConnect,
-{{#if memo}}
-  memo,
-{{/if}}
 )({{ properCase name }});

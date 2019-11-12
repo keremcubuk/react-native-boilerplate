@@ -24,40 +24,15 @@ module.exports = {
     },
     {
       type: 'confirm',
-      name: 'memo',
-      default: false,
-      message: 'Do you want to wrap your component in React.memo?',
-    },
-    {
-      type: 'confirm',
-      name: 'wantHeaders',
-      default: false,
-      message: 'Do you want headers?',
-    },
-    {
-      type: 'confirm',
       name: 'wantActionsAndReducer',
       default: true,
-      message:
-        'Do you want an actions/constants/selectors/reducer tuple for this container?',
+      message: 'Do you want an actions/constants/selectors/reducer tuple for this container?',
     },
     {
       type: 'confirm',
       name: 'wantSaga',
       default: true,
       message: 'Do you want sagas for asynchronous flows? (e.g. fetching data)',
-    },
-    {
-      type: 'confirm',
-      name: 'wantMessages',
-      default: true,
-      message: 'Do you want i18n messages (i.e. will this component use text)?',
-    },
-    {
-      type: 'confirm',
-      name: 'wantLoadable',
-      default: true,
-      message: 'Do you want to load resources asynchronously?',
     },
   ],
   actions: data => {
@@ -76,16 +51,6 @@ module.exports = {
         abortOnFail: true,
       },
     ];
-
-    // If component wants messages
-    if (data.wantMessages) {
-      actions.push({
-        type: 'add',
-        path: '../../app/containers/{{properCase name}}/messages.js',
-        templateFile: './container/messages.js.hbs',
-        abortOnFail: true,
-      });
-    }
 
     // If they want actions and a reducer, generate actions.js, constants.js,
     // reducer.js and the corresponding tests for actions and the reducer
@@ -121,8 +86,7 @@ module.exports = {
       });
       actions.push({
         type: 'add',
-        path:
-          '../../app/containers/{{properCase name}}/tests/selectors.test.js',
+        path: '../../app/containers/{{properCase name}}/tests/selectors.test.js',
         templateFile: './container/selectors.test.js.hbs',
         abortOnFail: true,
       });
@@ -154,15 +118,6 @@ module.exports = {
         type: 'add',
         path: '../../app/containers/{{properCase name}}/tests/saga.test.js',
         templateFile: './container/saga.test.js.hbs',
-        abortOnFail: true,
-      });
-    }
-
-    if (data.wantLoadable) {
-      actions.push({
-        type: 'add',
-        path: '../../app/containers/{{properCase name}}/Loadable.js',
-        templateFile: './component/loadable.js.hbs',
         abortOnFail: true,
       });
     }
