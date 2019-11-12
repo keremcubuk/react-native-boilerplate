@@ -13,6 +13,7 @@
     "babel-plugin-module-resolver": "^3.2.0",
     "i18next": "^19.0.0",
     "immutable": "^4.0.0-rc.12",
+    "native-base": "^2.13.8",
     "react": "16.9.0",
     "react-intl": "^3.6.0",
     "react-native": "0.61.4",
