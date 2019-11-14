@@ -4,33 +4,27 @@
  *
  */
 
-{{#if memo}}
-import React, { memo } from 'react';
-{{else}}
 import React from 'react';
-{{/if}}
+import { View, Text } from 'react-native';
 // import PropTypes from 'prop-types';
 // import styled from 'styled-components';
 
 {{#if wantMessages}}
-import { FormattedMessage } from 'react-intl';
-import messages from './messages';
+import I18n from 'localization';
 {{/if}}
 
 function {{ properCase name }}() {
   return (
-    <div>
+    <View>
     {{#if wantMessages}}
-      <FormattedMessage {...messages.header} />
+      <Text>{I18n.t('component.welcome')} {{ properCase name }} Component!</Text>
+    {{else}}
+        <Text>{{ properCase name }} Component!</Text>
     {{/if}}
-    </div>
+    </View>
   );
 }
 
 {{ properCase name }}.propTypes = {};
 
-{{#if memo}}
-export default memo({{ properCase name }});
-{{else}}
 export default {{ properCase name }};
-{{/if}}
