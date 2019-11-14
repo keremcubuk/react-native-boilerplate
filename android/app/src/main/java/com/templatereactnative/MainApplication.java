@@ -1,4 +1,4 @@
-package com.ivebeen;
+package com.templatereactnative;
 
 import android.app.Application;
 import android.content.Context;

@@ -9,5 +9,5 @@ import React from 'react';
 import { Text } from 'react-native';
 
 export default function HomePage() {
-  return <Text>Welcome to IveBeen</Text>;
+  return <Text>Welcome to templateReactNative</Text>;
 }

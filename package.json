@@ -1,5 +1,5 @@
 {
-  "name": "IveBeen",
+  "name": "templateReactNative",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,7 +10,6 @@
     "test": "jest",
     "lint": "eslint .",
     "prettify": "prettier --write"
-
   },
   "dependencies": {
     "i18next": "^19.0.0",

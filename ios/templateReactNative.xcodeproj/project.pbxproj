@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* IveBeenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* IveBeenTests.m */; };
-		11F6D4CD15BE9B259D8DC40E /* libPods-IveBeen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36561BCA423965AB9A63A435 /* libPods-IveBeen.a */; };
+		00E356F31AD99517003FC87E /* templateReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* templateReactNativeTests.m */; };
+		11F6D4CD15BE9B259D8DC40E /* libPods-templateReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36561BCA423965AB9A63A435 /* libPods-templateReactNative.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -16,10 +16,10 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* IveBeenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* IveBeenTests.m */; };
-		AE9C56FC5647670880C440EA /* libPods-IveBeen-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E43ED534C187DA332FCCA00 /* libPods-IveBeen-tvOS.a */; };
-		B7C3EA9602B8AE2823A18C47 /* libPods-IveBeenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD32EEB44B94355E7F2425C /* libPods-IveBeenTests.a */; };
-		E84B425AE0A06F4B9AC1D659 /* libPods-IveBeen-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2278698EBA8D48F871102877 /* libPods-IveBeen-tvOSTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* templateReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* templateReactNativeTests.m */; };
+		AE9C56FC5647670880C440EA /* libPods-templateReactNative-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E43ED534C187DA332FCCA00 /* libPods-templateReactNative-tvOS.a */; };
+		B7C3EA9602B8AE2823A18C47 /* libPods-templateReactNativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD32EEB44B94355E7F2425C /* libPods-templateReactNativeTests.a */; };
+		E84B425AE0A06F4B9AC1D659 /* libPods-templateReactNative-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2278698EBA8D48F871102877 /* libPods-templateReactNative-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,43 +28,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = IveBeen;
+			remoteInfo = templateReactNative;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "IveBeen-tvOS";
+			remoteInfo = "templateReactNative-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* IveBeenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IveBeenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* templateReactNativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = templateReactNativeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* IveBeenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IveBeenTests.m; sourceTree = "<group>"; };
-		0E43ED534C187DA332FCCA00 /* libPods-IveBeen-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IveBeen-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* IveBeen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IveBeen.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = IveBeen/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = IveBeen/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* templateReactNativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = templateReactNativeTests.m; sourceTree = "<group>"; };
+		0E43ED534C187DA332FCCA00 /* libPods-templateReactNative-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-templateReactNative-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* templateReactNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = templateReactNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = templateReactNative/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = templateReactNative/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = IveBeen/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = IveBeen/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = IveBeen/main.m; sourceTree = "<group>"; };
-		1B2DCF9EEA9A92AD60F6BD58 /* Pods-IveBeen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IveBeen.debug.xcconfig"; path = "Target Support Files/Pods-IveBeen/Pods-IveBeen.debug.xcconfig"; sourceTree = "<group>"; };
-		2278698EBA8D48F871102877 /* libPods-IveBeen-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IveBeen-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		230D24DFC171A94BDEEBF884 /* Pods-IveBeen-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IveBeen-tvOS.release.xcconfig"; path = "Target Support Files/Pods-IveBeen-tvOS/Pods-IveBeen-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* IveBeen-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IveBeen-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* IveBeen-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IveBeen-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		36561BCA423965AB9A63A435 /* libPods-IveBeen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IveBeen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		686B6859BAE0B63434B01F3E /* Pods-IveBeenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IveBeenTests.debug.xcconfig"; path = "Target Support Files/Pods-IveBeenTests/Pods-IveBeenTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8A276E9D85D90BA6ADBC0BC3 /* Pods-IveBeen-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IveBeen-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-IveBeen-tvOSTests/Pods-IveBeen-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		8E9718CC3AE426C438C67140 /* Pods-IveBeen-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IveBeen-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-IveBeen-tvOSTests/Pods-IveBeen-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8ED9719E2A25D965D5D7FFC9 /* Pods-IveBeen-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IveBeen-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-IveBeen-tvOS/Pods-IveBeen-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		C60DFC07A9EAEB27F1EA5165 /* Pods-IveBeen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IveBeen.release.xcconfig"; path = "Target Support Files/Pods-IveBeen/Pods-IveBeen.release.xcconfig"; sourceTree = "<group>"; };
-		CFD32EEB44B94355E7F2425C /* libPods-IveBeenTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IveBeenTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3BAF4F0A8FE3BF71EA227AB /* Pods-IveBeenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IveBeenTests.release.xcconfig"; path = "Target Support Files/Pods-IveBeenTests/Pods-IveBeenTests.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = templateReactNative/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = templateReactNative/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = templateReactNative/main.m; sourceTree = "<group>"; };
+		1B2DCF9EEA9A92AD60F6BD58 /* Pods-templateReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateReactNative.debug.xcconfig"; path = "Target Support Files/Pods-templateReactNative/Pods-templateReactNative.debug.xcconfig"; sourceTree = "<group>"; };
+		2278698EBA8D48F871102877 /* libPods-templateReactNative-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-templateReactNative-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		230D24DFC171A94BDEEBF884 /* Pods-templateReactNative-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateReactNative-tvOS.release.xcconfig"; path = "Target Support Files/Pods-templateReactNative-tvOS/Pods-templateReactNative-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* templateReactNative-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "templateReactNative-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* templateReactNative-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "templateReactNative-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36561BCA423965AB9A63A435 /* libPods-templateReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-templateReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		686B6859BAE0B63434B01F3E /* Pods-templateReactNativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateReactNativeTests.debug.xcconfig"; path = "Target Support Files/Pods-templateReactNativeTests/Pods-templateReactNativeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A276E9D85D90BA6ADBC0BC3 /* Pods-templateReactNative-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateReactNative-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-templateReactNative-tvOSTests/Pods-templateReactNative-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E9718CC3AE426C438C67140 /* Pods-templateReactNative-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateReactNative-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-templateReactNative-tvOSTests/Pods-templateReactNative-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8ED9719E2A25D965D5D7FFC9 /* Pods-templateReactNative-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateReactNative-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-templateReactNative-tvOS/Pods-templateReactNative-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C60DFC07A9EAEB27F1EA5165 /* Pods-templateReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateReactNative.release.xcconfig"; path = "Target Support Files/Pods-templateReactNative/Pods-templateReactNative.release.xcconfig"; sourceTree = "<group>"; };
+		CFD32EEB44B94355E7F2425C /* libPods-templateReactNativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-templateReactNativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BAF4F0A8FE3BF71EA227AB /* Pods-templateReactNativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateReactNativeTests.release.xcconfig"; path = "Target Support Files/Pods-templateReactNativeTests/Pods-templateReactNativeTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7C3EA9602B8AE2823A18C47 /* libPods-IveBeenTests.a in Frameworks */,
+				B7C3EA9602B8AE2823A18C47 /* libPods-templateReactNativeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11F6D4CD15BE9B259D8DC40E /* libPods-IveBeen.a in Frameworks */,
+				11F6D4CD15BE9B259D8DC40E /* libPods-templateReactNative.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE9C56FC5647670880C440EA /* libPods-IveBeen-tvOS.a in Frameworks */,
+				AE9C56FC5647670880C440EA /* libPods-templateReactNative-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E84B425AE0A06F4B9AC1D659 /* libPods-IveBeen-tvOSTests.a in Frameworks */,
+				E84B425AE0A06F4B9AC1D659 /* libPods-templateReactNative-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* IveBeenTests */ = {
+		00E356EF1AD99517003FC87E /* templateReactNativeTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* IveBeenTests.m */,
+				00E356F21AD99517003FC87E /* templateReactNativeTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = IveBeenTests;
+			path = templateReactNativeTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* IveBeen */ = {
+		13B07FAE1A68108700A75B9A /* templateReactNative */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = IveBeen;
+			name = templateReactNative;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				36561BCA423965AB9A63A435 /* libPods-IveBeen.a */,
-				0E43ED534C187DA332FCCA00 /* libPods-IveBeen-tvOS.a */,
-				2278698EBA8D48F871102877 /* libPods-IveBeen-tvOSTests.a */,
-				CFD32EEB44B94355E7F2425C /* libPods-IveBeenTests.a */,
+				36561BCA423965AB9A63A435 /* libPods-templateReactNative.a */,
+				0E43ED534C187DA332FCCA00 /* libPods-templateReactNative-tvOS.a */,
+				2278698EBA8D48F871102877 /* libPods-templateReactNative-tvOSTests.a */,
+				CFD32EEB44B94355E7F2425C /* libPods-templateReactNativeTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,14 +152,14 @@
 		4963631EEAF45AED8E70E8B9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1B2DCF9EEA9A92AD60F6BD58 /* Pods-IveBeen.debug.xcconfig */,
-				C60DFC07A9EAEB27F1EA5165 /* Pods-IveBeen.release.xcconfig */,
-				8ED9719E2A25D965D5D7FFC9 /* Pods-IveBeen-tvOS.debug.xcconfig */,
-				230D24DFC171A94BDEEBF884 /* Pods-IveBeen-tvOS.release.xcconfig */,
-				8E9718CC3AE426C438C67140 /* Pods-IveBeen-tvOSTests.debug.xcconfig */,
-				8A276E9D85D90BA6ADBC0BC3 /* Pods-IveBeen-tvOSTests.release.xcconfig */,
-				686B6859BAE0B63434B01F3E /* Pods-IveBeenTests.debug.xcconfig */,
-				D3BAF4F0A8FE3BF71EA227AB /* Pods-IveBeenTests.release.xcconfig */,
+				1B2DCF9EEA9A92AD60F6BD58 /* Pods-templateReactNative.debug.xcconfig */,
+				C60DFC07A9EAEB27F1EA5165 /* Pods-templateReactNative.release.xcconfig */,
+				8ED9719E2A25D965D5D7FFC9 /* Pods-templateReactNative-tvOS.debug.xcconfig */,
+				230D24DFC171A94BDEEBF884 /* Pods-templateReactNative-tvOS.release.xcconfig */,
+				8E9718CC3AE426C438C67140 /* Pods-templateReactNative-tvOSTests.debug.xcconfig */,
+				8A276E9D85D90BA6ADBC0BC3 /* Pods-templateReactNative-tvOSTests.release.xcconfig */,
+				686B6859BAE0B63434B01F3E /* Pods-templateReactNativeTests.debug.xcconfig */,
+				D3BAF4F0A8FE3BF71EA227AB /* Pods-templateReactNativeTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -175,9 +175,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* IveBeen */,
+				13B07FAE1A68108700A75B9A /* templateReactNative */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* IveBeenTests */,
+				00E356EF1AD99517003FC87E /* templateReactNativeTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				4963631EEAF45AED8E70E8B9 /* Pods */,
@@ -190,10 +190,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* IveBeen.app */,
-				00E356EE1AD99517003FC87E /* IveBeenTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* IveBeen-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* IveBeen-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* templateReactNative.app */,
+				00E356EE1AD99517003FC87E /* templateReactNativeTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* templateReactNative-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* templateReactNative-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* IveBeenTests */ = {
+		00E356ED1AD99517003FC87E /* templateReactNativeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "IveBeenTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "templateReactNativeTests" */;
 			buildPhases = (
 				2CCF7EA61E3DD36FC8740333 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -215,14 +215,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = IveBeenTests;
-			productName = IveBeenTests;
-			productReference = 00E356EE1AD99517003FC87E /* IveBeenTests.xctest */;
+			name = templateReactNativeTests;
+			productName = templateReactNativeTests;
+			productReference = 00E356EE1AD99517003FC87E /* templateReactNativeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* IveBeen */ = {
+		13B07F861A680F5B00A75B9A /* templateReactNative */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "IveBeen" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "templateReactNative" */;
 			buildPhases = (
 				C0656536156C1BA19B34C779 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -235,14 +235,14 @@
 			);
 			dependencies = (
 			);
-			name = IveBeen;
-			productName = IveBeen;
-			productReference = 13B07F961A680F5B00A75B9A /* IveBeen.app */;
+			name = templateReactNative;
+			productName = templateReactNative;
+			productReference = 13B07F961A680F5B00A75B9A /* templateReactNative.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* IveBeen-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* templateReactNative-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "IveBeen-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "templateReactNative-tvOS" */;
 			buildPhases = (
 				AD79D860C6F5E804D2370140 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -255,14 +255,14 @@
 			);
 			dependencies = (
 			);
-			name = "IveBeen-tvOS";
-			productName = "IveBeen-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* IveBeen-tvOS.app */;
+			name = "templateReactNative-tvOS";
+			productName = "templateReactNative-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* templateReactNative-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* IveBeen-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* templateReactNative-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "IveBeen-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "templateReactNative-tvOSTests" */;
 			buildPhases = (
 				D497D4247D5F3E437673A8A4 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -274,9 +274,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "IveBeen-tvOSTests";
-			productName = "IveBeen-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* IveBeen-tvOSTests.xctest */;
+			name = "templateReactNative-tvOSTests";
+			productName = "templateReactNative-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* templateReactNative-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -303,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "IveBeen" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "templateReactNative" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -316,10 +316,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* IveBeen */,
-				00E356ED1AD99517003FC87E /* IveBeenTests */,
-				2D02E47A1E0B4A5D006451C7 /* IveBeen-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* IveBeen-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* templateReactNative */,
+				00E356ED1AD99517003FC87E /* templateReactNativeTests */,
+				2D02E47A1E0B4A5D006451C7 /* templateReactNative-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* templateReactNative-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -388,7 +388,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-IveBeenTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-templateReactNativeTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -424,7 +424,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-IveBeen-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-templateReactNative-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -446,7 +446,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-IveBeen-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-templateReactNative-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -468,7 +468,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-IveBeen-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-templateReactNative-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -520,7 +520,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* IveBeenTests.m in Sources */,
+				00E356F31AD99517003FC87E /* templateReactNativeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,7 +546,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* IveBeenTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* templateReactNativeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,12 +555,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* IveBeen */;
+			target = 13B07F861A680F5B00A75B9A /* templateReactNative */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* IveBeen-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* templateReactNative-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -572,7 +572,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = IveBeen;
+			path = templateReactNative;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -580,14 +580,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 686B6859BAE0B63434B01F3E /* Pods-IveBeenTests.debug.xcconfig */;
+			baseConfigurationReference = 686B6859BAE0B63434B01F3E /* Pods-templateReactNativeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = IveBeenTests/Info.plist;
+				INFOPLIST_FILE = templateReactNativeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -597,17 +597,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IveBeen.app/IveBeen";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/templateReactNative.app/templateReactNative";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3BAF4F0A8FE3BF71EA227AB /* Pods-IveBeenTests.release.xcconfig */;
+			baseConfigurationReference = D3BAF4F0A8FE3BF71EA227AB /* Pods-templateReactNativeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = IveBeenTests/Info.plist;
+				INFOPLIST_FILE = templateReactNativeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -617,18 +617,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IveBeen.app/IveBeen";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/templateReactNative.app/templateReactNative";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B2DCF9EEA9A92AD60F6BD58 /* Pods-IveBeen.debug.xcconfig */;
+			baseConfigurationReference = 1B2DCF9EEA9A92AD60F6BD58 /* Pods-templateReactNative.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = IveBeen/Info.plist;
+				INFOPLIST_FILE = templateReactNative/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -636,18 +636,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = IveBeen;
+				PRODUCT_NAME = templateReactNative;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C60DFC07A9EAEB27F1EA5165 /* Pods-IveBeen.release.xcconfig */;
+			baseConfigurationReference = C60DFC07A9EAEB27F1EA5165 /* Pods-templateReactNative.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = IveBeen/Info.plist;
+				INFOPLIST_FILE = templateReactNative/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -655,14 +655,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = IveBeen;
+				PRODUCT_NAME = templateReactNative;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8ED9719E2A25D965D5D7FFC9 /* Pods-IveBeen-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 8ED9719E2A25D965D5D7FFC9 /* Pods-templateReactNative-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -673,14 +673,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "IveBeen-tvOS/Info.plist";
+				INFOPLIST_FILE = "templateReactNative-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.IveBeen-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.templateReactNative-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -690,7 +690,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 230D24DFC171A94BDEEBF884 /* Pods-IveBeen-tvOS.release.xcconfig */;
+			baseConfigurationReference = 230D24DFC171A94BDEEBF884 /* Pods-templateReactNative-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -701,14 +701,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "IveBeen-tvOS/Info.plist";
+				INFOPLIST_FILE = "templateReactNative-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.IveBeen-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.templateReactNative-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -718,7 +718,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E9718CC3AE426C438C67140 /* Pods-IveBeen-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 8E9718CC3AE426C438C67140 /* Pods-templateReactNative-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -728,24 +728,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "IveBeen-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "templateReactNative-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.IveBeen-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.templateReactNative-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IveBeen-tvOS.app/IveBeen-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/templateReactNative-tvOS.app/templateReactNative-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A276E9D85D90BA6ADBC0BC3 /* Pods-IveBeen-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 8A276E9D85D90BA6ADBC0BC3 /* Pods-templateReactNative-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -755,17 +755,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "IveBeen-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "templateReactNative-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.IveBeen-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.templateReactNative-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IveBeen-tvOS.app/IveBeen-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/templateReactNative-tvOS.app/templateReactNative-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -872,7 +872,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "IveBeenTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "templateReactNativeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -881,7 +881,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "IveBeen" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "templateReactNative" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -890,7 +890,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "IveBeen-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "templateReactNative-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -899,7 +899,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "IveBeen-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "templateReactNative-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -908,7 +908,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "IveBeen" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "templateReactNative" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

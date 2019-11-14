@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.ivebeen"
+        applicationId "com.templatereactnative"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
