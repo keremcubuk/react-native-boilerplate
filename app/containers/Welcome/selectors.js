@@ -16,7 +16,10 @@ const selectWelcomeDomain = state => state.welcome || initialState;
  */
 
 const makeSelectWelcome = () =>
-  createSelector(selectWelcomeDomain, substate => substate);
+  createSelector(
+    selectWelcomeDomain,
+    substate => substate,
+  );
 
 export default makeSelectWelcome;
 export { selectWelcomeDomain };

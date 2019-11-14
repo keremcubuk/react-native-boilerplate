@@ -2,8 +2,8 @@ const en = {
   localization: {
     deviceLanguage: 'en-US',
   },
-  component: {
-    welcome: 'Welcome',
+  firstMessage: {
+    hello: 'Hello from',
   },
 };
 

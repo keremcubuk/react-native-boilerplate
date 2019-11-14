@@ -17,7 +17,7 @@ function {{ properCase name }}() {
   return (
     <View>
     {{#if wantMessages}}
-      <Text>{I18n.t('component.welcome')} {{ properCase name }} Component!</Text>
+      <Text>{I18n.t('firstMessage.hello')} {{ properCase name }} Component!</Text>
     {{else}}
         <Text>{{ properCase name }} Component!</Text>
     {{/if}}

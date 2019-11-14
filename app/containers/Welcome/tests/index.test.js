@@ -2,7 +2,7 @@
  *
  * Tests for Welcome
  *
- * @see https://github.com/react-boilerplate/react-boilerplate/tree/master/docs/testing
+ * @see https://github.com/keremcubuk/react-native-boilerplate/tree/master/docs/testing
  *
  */
 
@@ -16,6 +16,7 @@ describe('<Welcome />', () => {
   it('Expect to not log errors in console', () => {
     const spy = jest.spyOn(global.console, 'error');
     const dispatch = jest.fn();
+
     render(<Welcome dispatch={dispatch} />);
     expect(spy).not.toHaveBeenCalled();
   });
@@ -33,6 +34,7 @@ describe('<Welcome />', () => {
     const {
       container: { firstChild },
     } = render(<Welcome />);
+
     expect(firstChild).toMatchSnapshot();
   });
 });

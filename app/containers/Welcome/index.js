@@ -7,6 +7,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 import PropTypes from 'prop-types';
+import I18n from 'localization';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import { compose } from 'redux';
@@ -23,7 +24,7 @@ export function Welcome() {
 
   return (
     <View>
-      <Text>Hello Welcome</Text>
+      <Text>{I18n.t('firstMessage.hello')} Welcome Container!</Text>
     </View>
   );
 }
@@ -42,8 +43,9 @@ function mapDispatchToProps(dispatch) {
   };
 }
 
-const withConnect = connect(mapStateToProps, mapDispatchToProps);
+const withConnect = connect(
+  mapStateToProps,
+  mapDispatchToProps,
+);
 
-export default compose(
-  withConnect,
-)(Welcome);
+export default compose(withConnect)(Welcome);

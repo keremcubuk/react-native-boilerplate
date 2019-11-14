@@ -7,6 +7,9 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 import PropTypes from 'prop-types';
+{{#if wantMessages}}
+import I18n from 'localization';
+{{/if}}
 import { connect } from 'react-redux';
 {{#if wantActionsAndReducer}}
 import { createStructuredSelector } from 'reselect';
@@ -35,7 +38,11 @@ export function {{ properCase name }}() {
 
   return (
     <View>
-      <Text>{{ properCase name }} Container!</Text>
+      {{#if wantMessages}}
+        <Text>{I18n.t('firstMessage.hello')} {{ properCase name }} Container!</Text>
+      {{else}}
+          <Text>{{ properCase name }} Container!</Text>
+      {{/if}}
     </View>
   );
 }
