@@ -10,7 +10,6 @@ module.exports = {
           components: './app/components',
           containers: './app/containers',
           localization: './app/localization',
-          theme: './app/theme',
           utils: './app/utils',
           underscore: 'lodash',
         },

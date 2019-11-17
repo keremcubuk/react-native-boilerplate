@@ -15,7 +15,6 @@
     "i18next": "^19.0.0",
     "immer": "^5.0.0",
     "immutable": "^4.0.0-rc.12",
-    "native-base": "^2.13.8",
     "plop": "^2.5.3",
     "react": "16.9.0",
     "react-native": "0.61.4",
