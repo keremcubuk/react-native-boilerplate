@@ -25,8 +25,7 @@ function AppReducer(state = initialState, action) {
  */
 export default function createReducer(injectedReducers = {}) {
   const rootReducer = combineReducers({
-    templateReactNativeApp: AppReducer,
-    // language: languageProviderReducer,
+    RnApp: AppReducer, // If you want, you can change the name of RnApp
     ...injectedReducers,
   });
 
