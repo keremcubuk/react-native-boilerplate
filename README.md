@@ -29,6 +29,9 @@
   <sub>Created by <a href="https://twitter.com/mxstbr">Kerem Çubuk</a> and maintained with ❤️ by an amazing <a href="https://github.com/react-boilerplate/react-boilerplate">react-boilerplate</a>.</sub>
 </div>
 
+### Motivation: 
+While creating this project, I always need to a react-native standart for our team. When we start to new project, we always spend too much time. So that, we created `react-native-boilerplate` and we wanted to share with the community.
+
 ## Features
 
 <dl>
