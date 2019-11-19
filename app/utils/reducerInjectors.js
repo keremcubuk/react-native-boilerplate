@@ -1,12 +1,14 @@
 import invariant from 'invariant';
-import { isEmpty, isFunction, isString } from 'lodash';
+import { isEmpty, isFunction, isString, has } from 'lodash';
 
 import checkStore from './checkStore';
 import createReducer from '../reducers';
 
 export function injectReducerFactory(store, isValid) {
   return function injectReducer(key, reducer) {
-    if (!isValid) checkStore(store);
+    if (!isValid) {
+      checkStore(store);
+    }
 
     invariant(
       isString(key) && !isEmpty(key) && isFunction(reducer),
@@ -14,8 +16,9 @@ export function injectReducerFactory(store, isValid) {
     );
 
     // Check `store.injectedReducers[key] === reducer` for hot reloading when a key is the same but a reducer is different
+    // eslint-disable-next-line prettier/prettier
     if (
-      Reflect.has(store.injectedReducers, key) &&
+      has(store.injectedReducers, key) &&
       store.injectedReducers[key] === reducer
     )
       return;
