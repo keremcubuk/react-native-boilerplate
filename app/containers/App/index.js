@@ -18,6 +18,9 @@ const AppNavigator = createStackNavigator(
   {
     Welcome: {
       screen: Welcome,
+      navigationOptions: {
+        headerShown: false,
+      },
     },
     Home: {
       screen: HomePage,
