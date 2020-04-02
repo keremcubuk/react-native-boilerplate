@@ -5,7 +5,7 @@
  */
 
 import React from 'react';
-import { View, Text } from 'react-native';
+import { Text, SafeAreaView } from 'react-native';
 import PropTypes from 'prop-types';
 import I18n from 'localization';
 import { connect } from 'react-redux';
@@ -23,9 +23,9 @@ export function Welcome() {
   useInjectSaga({ key: 'welcome', saga });
 
   return (
-    <View>
+    <SafeAreaView>
       <Text>{I18n.t('firstMessage.hello')} Welcome Container!</Text>
-    </View>
+    </SafeAreaView>
   );
 }
 
