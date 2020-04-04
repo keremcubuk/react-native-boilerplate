@@ -5,7 +5,7 @@
  */
 
 import React from 'react';
-import { Text, SafeAreaView } from 'react-native';
+import { Text, SafeAreaView, Button } from 'react-native';
 import PropTypes from 'prop-types';
 import I18n from 'localization';
 import { connect } from 'react-redux';
@@ -18,13 +18,16 @@ import makeSelectWelcome from './selectors';
 import reducer from './reducer';
 import saga from './saga';
 
-export function Welcome() {
+export function Welcome({ route, navigation }) {
   useInjectReducer({ key: 'welcome', reducer });
   useInjectSaga({ key: 'welcome', saga });
 
   return (
     <SafeAreaView>
-      <Text>{I18n.t('firstMessage.hello')} Welcome Container!</Text>
+      <Text>
+        {I18n.t('firstMessage.hello')} {route.name} Container!
+      </Text>
+      <Button title="Go to Home" onPress={() => navigation.navigate('Home')} />
     </SafeAreaView>
   );
 }

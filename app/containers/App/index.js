@@ -6,42 +6,33 @@
  * contain code that should be seen on all pages. (e.g. navigation bar)
  *
  */
-
-import { createAppContainer } from 'react-navigation';
-import { createStackNavigator } from 'react-navigation-stack';
+import * as React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
 
 // Screens
 import HomePage from '../HomePage';
 import Welcome from '../Welcome';
 
-const AppNavigator = createStackNavigator(
-  {
-    Welcome: {
-      screen: Welcome,
-      navigationOptions: {
-        headerShown: false,
-      },
-    },
-    Home: {
-      screen: HomePage,
-    },
-  },
-  {
-    initialRouteName: 'Welcome',
-    headerLayoutPreset: 'center',
-    defaultNavigationOptions: {
-      headerBackTitle: null,
-      headerStyle: {
-        height: 60,
-        paddingTop: 20,
-        backgroundColor: '#0893ce',
-      },
-      headerTintColor: '#fff',
-      headerTitleStyle: {
-        fontWeight: 'bold',
-      },
-    },
-  },
-);
+const Stack = createStackNavigator();
 
-export default createAppContainer(AppNavigator);
+function RootStack() {
+  return (
+    <Stack.Navigator initialRouteName="Welcome">
+      <Stack.Screen name="Welcome" component={Welcome} options={{ headerShown: false }} />
+      <Stack.Screen name="Home" component={HomePage} />
+    </Stack.Navigator>
+  );
+}
+
+function App() {
+  const ref = React.useRef(null);
+
+  return (
+    <NavigationContainer ref={ref}>
+      <RootStack />
+    </NavigationContainer>
+  );
+}
+
+export default App;
