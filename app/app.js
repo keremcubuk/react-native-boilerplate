@@ -6,7 +6,7 @@
  */
 
 // Import all the third party stuff
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Provider } from 'react-redux';
 
 // Import root app
@@ -19,22 +19,10 @@ import createReducer from './reducers';
 const initialState = {};
 const store = configureStore(createReducer, initialState);
 
-export let navigatorRef;
-
 function AppRoot() {
-  useEffect(() => {
-    return () => {
-      navigatorRef = this.navigator;
-    };
-  }, []);
-
   return (
     <Provider store={store}>
-      <App
-        ref={nav => {
-          this.navigator = nav;
-        }}
-      />
+      <App />
     </Provider>
   );
 }
