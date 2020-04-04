@@ -1,23 +1,24 @@
 /*
- * HomePage
+ * HelpScreen
  *
  * This is the second thing users see of our App, at the '/' route
  *
  */
 
 import React from 'react';
-import { SafeAreaView, ScrollView, View, Text, StatusBar } from 'react-native';
+import { SafeAreaView, ScrollView, View, Text, StatusBar, Image } from 'react-native';
 
-import { Header, LearnMoreLinks, DebugInstructions, ReloadInstructions } from 'react-native/Libraries/NewAppScreen';
+import { LearnMoreLinks, DebugInstructions, ReloadInstructions } from 'react-native/Libraries/NewAppScreen';
 import { styles } from './styles';
+import images from 'images';
 
-export default function HomePage() {
+export default function HelpScreen() {
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView contentInsetAdjustmentBehavior="automatic" style={styles.scrollView}>
-          <Header />
+          <Image source={images.banner} />
           {global.HermesInternal == null ? null : (
             <View style={styles.engine}>
               <Text style={styles.footer}>Engine: Hermes</Text>

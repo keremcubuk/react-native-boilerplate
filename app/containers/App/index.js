@@ -11,7 +11,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 // Screens
-import HomePage from '../HomePage';
+import HelpScreen from '../HelpScreen';
 import Welcome from '../Welcome';
 
 const Stack = createStackNavigator();
@@ -20,7 +20,7 @@ function RootStack() {
   return (
     <Stack.Navigator initialRouteName="Welcome">
       <Stack.Screen name="Welcome" component={Welcome} options={{ headerShown: false }} />
-      <Stack.Screen name="Home" component={HomePage} />
+      <Stack.Screen name="Help" component={HelpScreen} />
     </Stack.Navigator>
   );
 }
