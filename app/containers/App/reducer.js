@@ -7,8 +7,10 @@
  *
  */
 
-import produce from 'immer';
+import produce, { enableES5 } from 'immer';
 import { DEFAULT_ACTION } from './constants';
+
+enableES5(); // For EcmaScript support. If you erase this line you can get an error because of TypeScript.
 
 export const initialState = {};
 
