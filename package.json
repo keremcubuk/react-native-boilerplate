@@ -1,6 +1,6 @@
 {
   "name": "templateReactNative",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -16,7 +16,7 @@
     "@react-navigation/native": "^5.1.4",
     "@react-navigation/stack": "^5.2.9",
     "i18next": "^19.3.4",
-    "immer": "^5.0.0",
+    "immer": "^6.0.3",
     "react": "16.9.0",
     "react-native": "0.61.5",
     "react-native-gesture-handler": "^1.6.1",
