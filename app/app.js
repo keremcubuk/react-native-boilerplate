@@ -13,11 +13,10 @@ import { Provider } from 'react-redux';
 import App from './containers/App';
 
 import configureStore from './configureStore';
-import createReducer from './reducers';
 
 // Create redux store with history
 const initialState = {};
-const store = configureStore(createReducer, initialState);
+const store = configureStore(initialState);
 
 function AppRoot() {
   return (
