@@ -13,8 +13,8 @@
     <img src="https://david-dm.org/keremcubuk/react-native-boilerplate/status.svg" alt="Dependency Status" />
   </a>
   <!-- devDependency Status -->
-  <a href="https://david-dm.org/keremcubuk/react-native-boilerplate#info=devDependencies">
-    <img src="https://david-dm.org/keremcubuk/react-native-boilerplate/status.svg" alt="devDependency Status" />
+  <a href="https://david-dm.org/keremcubuk/react-native-boilerplate?type=dev" title="devDependencies status">
+    <img src="https://david-dm.org/keremcubuk/react-native-boilerplate/dev-status.svg" alt="devDependency Status"/>
   </a>
   <!-- Build Status -->
   <a href="https://travis-ci.org/keremcubuk/react-native-boilerplate">
