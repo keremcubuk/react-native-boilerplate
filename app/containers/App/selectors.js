@@ -1,11 +1,25 @@
 import { createSelector } from 'reselect';
+import { initialState } from './reducer';
 
-const selectRouter = state => state.router;
+/**
+ * Direct selector to the app state domain
+ */
 
-const makeSelectLocation = () =>
+const selectAppDomain = state => state.app || initialState;
+
+/**
+ * Other specific selectors
+ */
+
+/**
+ * Default selector used by App
+ */
+
+const makeSelectApp = () =>
   createSelector(
-    selectRouter,
-    routerState => routerState.location,
+    selectAppDomain,
+    substate => substate,
   );
 
-export { makeSelectLocation };
+export default makeSelectApp;
+export { selectAppDomain };
