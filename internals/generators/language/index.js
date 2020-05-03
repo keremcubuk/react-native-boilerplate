@@ -78,6 +78,12 @@ module.exports = {
     });
     actions.push({
       type: 'modify',
+      path: '../../app/containers/LanguageProvider/messages.js',
+      pattern: /(export default defineMessages\({)/g,
+      templateFile: './language/add-locale-messages.hbs',
+    });
+    actions.push({
+      type: 'modify',
       path: '../../app/i18n.js',
       pattern: /([a-z]+:\sformatTranslationMessages\('[a-z]+',\s[a-z]+TranslationMessages\),\n)(?!.*[a-z]+:\sformatTranslationMessages\('[a-z]+',\s[a-z]+TranslationMessages\),)/g,
       templateFile: './language/format-translation-messages.hbs',

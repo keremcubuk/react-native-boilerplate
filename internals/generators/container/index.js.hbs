@@ -4,13 +4,17 @@
  *
  */
 
+{{#if memo}}
+import React, { memo } from 'react';
+{{else}}
 import React from 'react';
+{{/if}}
 import { View, Text } from 'react-native';
 import PropTypes from 'prop-types';
-{{#if wantMessages}}
-import I18n from 'localization';
-{{/if}}
 import { connect } from 'react-redux';
+{{#if wantMessages}}
+import { injectIntl, intlShape } from 'react-intl';
+{{/if}}
 {{#if wantActionsAndReducer}}
 import { createStructuredSelector } from 'reselect';
 {{/if}}
@@ -27,8 +31,11 @@ import reducer from './reducer';
 {{#if wantSaga}}
 import saga from './saga';
 {{/if}}
+{{#if wantMessages}}
+import messages from './messages';
+{{/if}}
 
-export function {{ properCase name }}() {
+export function {{ properCase name }}(props) {
   {{#if wantActionsAndReducer}}
   useInjectReducer({ key: '{{ camelCase name }}', reducer });
   {{/if}}
@@ -38,17 +45,22 @@ export function {{ properCase name }}() {
 
   return (
     <View>
+      <Text>
       {{#if wantMessages}}
-        <Text>{I18n.t('firstMessage.hello')} {{ properCase name }} Container!</Text>
+        {props.intl.formatMessage(messages.header)}
       {{else}}
-          <Text>{{ properCase name }} Container!</Text>
+        This is the {{ properCase name }} container!
       {{/if}}
+      </Text>
     </View>
   );
 }
 
 {{ properCase name }}.propTypes = {
   dispatch: PropTypes.func.isRequired,
+  {{#if wantMessages}}
+  intl: intlShape,
+  {{/if}}
 };
 
 {{#if wantActionsAndReducer}}
@@ -71,4 +83,7 @@ const withConnect = connect(null, mapDispatchToProps);
 
 export default compose(
   withConnect,
-)({{ properCase name }});
+{{#if memo}}
+  memo,
+{{/if}}
+)({{#if wantMessages}} injectIntl( {{/if}} {{ properCase name }} {{#if wantMessages}} ) {{/if}});

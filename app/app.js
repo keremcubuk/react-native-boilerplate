@@ -11,8 +11,10 @@ import { Provider } from 'react-redux';
 
 // Import root app
 import App from './containers/App';
+import LanguageProvider from 'containers/LanguageProvider';
 
 import configureStore from './configureStore';
+import { translationMessages } from './i18n';
 
 // Create redux store with history
 const initialState = {};
@@ -21,7 +23,9 @@ const store = configureStore(initialState);
 function AppRoot() {
   return (
     <Provider store={store}>
-      <App />
+      <LanguageProvider messages={translationMessages}>
+        <App />
+      </LanguageProvider>
     </Provider>
   );
 }

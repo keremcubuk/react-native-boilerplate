@@ -24,6 +24,12 @@ module.exports = {
     },
     {
       type: 'confirm',
+      name: 'memo',
+      default: false,
+      message: 'Do you want to wrap your component in React.memo?',
+    },
+    {
+      type: 'confirm',
       name: 'wantActionsAndReducer',
       default: true,
       message: 'Do you want an actions/constants/selectors/reducer tuple for this container?',
@@ -57,6 +63,16 @@ module.exports = {
         abortOnFail: true,
       },
     ];
+
+    // If component wants messages
+    if (data.wantMessages) {
+      actions.push({
+        type: 'add',
+        path: '../../app/containers/{{properCase name}}/messages.js',
+        templateFile: './container/messages.js.hbs',
+        abortOnFail: true,
+      });
+    }
 
     // If they want actions and a reducer, generate actions.js, constants.js,
     // reducer.js and the corresponding tests for actions and the reducer
