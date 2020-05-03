@@ -33,6 +33,7 @@
     "@babel/core": "7.7.2",
     "@babel/runtime": "7.7.2",
     "@react-native-community/eslint-config": "0.0.5",
+    "@testing-library/react": "^10.0.4",
     "babel-jest": "24.9.0",
     "babel-plugin-module-resolver": "3.2.0",
     "babel-plugin-react-intl": "^5.1.8",
