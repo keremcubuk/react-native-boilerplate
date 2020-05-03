@@ -23,7 +23,7 @@ import messages from './messages';
 import images from 'images';
 import { styles } from './styles';
 
-export function Welcome(props, { navigation }) {
+export function Welcome(props) {
   useInjectReducer({ key: 'welcome', reducer });
   useInjectSaga({ key: 'welcome', saga });
 
@@ -49,7 +49,7 @@ export function Welcome(props, { navigation }) {
         </View>
         <View style={styles.helpWrapper}>
           <Text styles={styles.text}>{props.intl.formatMessage(messages.readyToDev)} 🚀</Text>
-          <Button color="#12D4C1" title="--> Go to Help Screen" onPress={() => navigation.navigate('Help')} />
+          <Button color="#12D4C1" title="--> Go to Help Screen" onPress={() => props.navigation.navigate('Help')} />
         </View>
         <Text>{props.intl.formatMessage(messages.chooseLanguage)}</Text>
         <LocaleToggle />
