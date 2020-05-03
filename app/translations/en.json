@@ -1,0 +1,9 @@
+{
+  "app.containers.LocaleToggle.en": "en",
+  "app.containers.LocaleToggle.fr": "fr",
+  "app.containers.Welcome.chooseLanguage": "Choose Language",
+  "app.containers.Welcome.explanation": "A highly scalable, react-native boilerplate reinforced with react-boilerplate which focus on performance and best practices.",
+  "app.containers.Welcome.goDocs": "To learn how to use react-native-boilerplate?",
+  "app.containers.Welcome.hello": "Hello from",
+  "app.containers.Welcome.readyToDev": "Now, you are ready to start development"
+}

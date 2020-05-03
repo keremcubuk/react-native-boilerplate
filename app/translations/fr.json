@@ -1,0 +1,9 @@
+{
+  "app.containers.LocaleToggle.en": "en",
+  "app.containers.LocaleToggle.fr": "fr",
+  "app.containers.Welcome.chooseLanguage": "Choisissez la langue",
+  "app.containers.Welcome.explanation": "Un passe-partout hautement évolutif et natif, renforcé avec un passe-partout réactif axé sur les performances et les meilleures pratiques.",
+  "app.containers.Welcome.goDocs": "Pour savoir comment utiliser react-native-passe-partout?",
+  "app.containers.Welcome.hello": "Bonjour de",
+  "app.containers.Welcome.readyToDev": "Maintenant, vous êtes prêt à démarrer le développement"
+}
