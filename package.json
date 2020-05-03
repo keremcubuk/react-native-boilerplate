@@ -10,7 +10,8 @@
     "test": "jest",
     "lint": "eslint .",
     "prettify": "prettier --write",
-    "extract-intl": "node ./internals/scripts/extract-intl.js"
+    "extract-intl": "node ./internals/scripts/extract-intl.js",
+    "rename": "react-native-rename"
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.7",
@@ -39,6 +40,7 @@
     "jest": "24.9.0",
     "metro-react-native-babel-preset": "0.56.3",
     "plop": "^2.6.0",
+    "react-native-rename": "^2.4.1",
     "react-test-renderer": "16.9.0",
     "shelljs": "^0.8.4"
   },
