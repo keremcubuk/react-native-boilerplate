@@ -119,7 +119,7 @@ describe('injectors', () => {
 
   describe('injectSaga helper', () => {
     beforeEach(() => {
-      store = configureStore({}, memoryHistory);
+      store = configureStore({});
       injectSaga = injectSagaFactory(store, true);
       ejectSaga = ejectSagaFactory(store, true);
     });
