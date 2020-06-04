@@ -5,7 +5,8 @@
  */
 
 import React from 'react';
-import { View, Picker } from 'react-native';
+import { Picker } from '@react-native-community/picker';
+
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { createSelector } from 'reselect';
@@ -17,16 +18,14 @@ import messages from './messages';
 
 export function LocaleToggle(props) {
   return (
-    <View>
-      <Picker
-        selectedValue={props.locale}
-        style={{ height: 50, width: 50 }}
-        onValueChange={itemValue => props.onLocaleToggle(itemValue)}>
-        {appLocales.map(locale => (
-          <Picker.Item key={locale} label={messages[locale].defaultMessage} value={locale} />
-        ))}
-      </Picker>
-    </View>
+    <Picker
+      selectedValue={props.locale}
+      style={{ height: 50, width: 50 }}
+      onValueChange={itemValue => props.onLocaleToggle(itemValue)}>
+      {appLocales.map(locale => (
+        <Picker.Item key={locale} label={messages[locale].defaultMessage} value={locale} />
+      ))}
+    </Picker>
   );
 }
 

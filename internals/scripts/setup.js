@@ -65,7 +65,7 @@ function checkIfRepositoryIsAClone() {
         .split(/\r?\n/)
         .map(line => line.trim())
         .filter(line => line.startsWith('origin'))
-        .filter(line => /iethem\/react-native-boilerplate\.git/.test(line))
+        .filter(line => /keremcubuk\/react-native-boilerplate\.git/.test(line))
         .length;
 
       resolve(!!isClonedRepo);
