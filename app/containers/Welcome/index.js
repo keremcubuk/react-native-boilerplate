@@ -5,7 +5,7 @@
  */
 
 import React from 'react';
-import { Text, View, SafeAreaView, Button, Image, Linking } from 'react-native';
+import { Text, View, SafeAreaView, Button, Image, Linking, ScrollView, Dimensions } from 'react-native';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
@@ -30,30 +30,36 @@ export function Welcome(props) {
   return (
     <SafeAreaView>
       <Image source={images.concept} resizeMode="cover" style={styles.bgImage} />
-      <View style={styles.textWrapper}>
-        <Text style={styles.text}>{props.intl.formatMessage(messages.hello)}</Text>
-        <Image source={images.logo} resizeMode="contain" />
-        <Text style={styles.textBold}>React Native Boilerplate</Text>
+      <ScrollView style={{ minHeight: Dimensions.get('window').height }}>
+        <View style={styles.textWrapper}>
+          <Text style={styles.text}>{props.intl.formatMessage(messages.hello)}</Text>
+          <Image source={images.logo} resizeMode="contain" />
+          <Text style={styles.textBold}>React Native Boilerplate</Text>
 
-        <Text style={styles.text}>{props.intl.formatMessage(messages.explanation)}</Text>
+          <Text style={styles.text}>{props.intl.formatMessage(messages.explanation)}</Text>
 
-        <View style={styles.infoTextWrapper}>
-          <Text styles={styles.text}>{props.intl.formatMessage(messages.goDocs)}</Text>
-          <Button
-            color="#12D4C1"
-            title="--> Github"
-            onPress={() => {
-              Linking.openURL('https://github.com/keremcubuk/react-native-boilerplate');
-            }}
-          />
+          <View style={styles.infoTextWrapper}>
+            <Text styles={styles.text}>{props.intl.formatMessage(messages.goDocs)}</Text>
+            <Button
+              color="#12D4C1"
+              title="--> Github"
+              onPress={() => {
+                Linking.openURL('https://github.com/keremcubuk/react-native-boilerplate');
+              }}
+            />
+          </View>
+          <View style={styles.helpWrapper}>
+            <Text styles={styles.text}>{props.intl.formatMessage(messages.readyToDev)} 🚀</Text>
+            <Button color="#12D4C1" title="--> Go to Help Screen" onPress={() => props.navigation.navigate('Help')} />
+          </View>
+          <View style={styles.langWrapper}>
+            <Text>{props.intl.formatMessage(messages.chooseLanguage)}</Text>
+            <View style={styles.localeWrapper}>
+              <LocaleToggle />
+            </View>
+          </View>
         </View>
-        <View style={styles.helpWrapper}>
-          <Text styles={styles.text}>{props.intl.formatMessage(messages.readyToDev)} 🚀</Text>
-          <Button color="#12D4C1" title="--> Go to Help Screen" onPress={() => props.navigation.navigate('Help')} />
-        </View>
-        <Text>{props.intl.formatMessage(messages.chooseLanguage)}</Text>
-        <LocaleToggle />
-      </View>
+      </ScrollView>
     </SafeAreaView>
   );
 }

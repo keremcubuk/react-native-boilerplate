@@ -1,6 +1,13 @@
 {
   "name": "templateReactNative",
   "version": "1.0.2",
+  "description": "A highly scalable, React Native project template with the best DX and a focus on performance and best practices",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/keremcubuk/react-native-boilerplate.git"
+  },
+  "author": "Kerem Çubuk",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -15,6 +22,7 @@
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.7",
+    "@react-native-community/picker": "^1.6.1",
     "@react-navigation/native": "^5.1.4",
     "@react-navigation/stack": "^5.2.9",
     "immer": "^6.0.3",
