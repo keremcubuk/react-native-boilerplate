@@ -34,6 +34,7 @@ export const styles = StyleSheet.create({
   },
   localeWrapper: {
     marginTop: Platform.OS === 'android' ? 0 : -50,
+    marginBottom: 20,
     alignItems: 'center',
   },
   helpWrapper: {
