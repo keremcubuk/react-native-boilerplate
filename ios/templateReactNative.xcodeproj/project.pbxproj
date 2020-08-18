@@ -10,13 +10,13 @@
 		003D2655984FCD10DA427E15 /* libPods-templateReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB512AC5464DB96021D3A56 /* libPods-templateReactNative.a */; };
 		00E356F31AD99517003FC87E /* templateReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* templateReactNativeTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* templateReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* templateReactNativeTests.m */; };
+		5091AE6624EC388F000B08B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5091AE6524EC388F000B08B2 /* LaunchScreen.storyboard */; };
 		AC9B221317CE71714ACD643B /* libPods-templateReactNative-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 073794634FD2B3B3A8642D1C /* libPods-templateReactNative-tvOS.a */; };
 		C475CF2AE5CB157233B50213 /* libPods-templateReactNative-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45372A68D1BDC3BF5D2ECA3C /* libPods-templateReactNative-tvOSTests.a */; };
 		C5B559BF1C4B25B42E44276E /* libPods-templateReactNative-templateReactNativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EB95F0D33F7CA3EE08939A /* libPods-templateReactNative-templateReactNativeTests.a */; };
@@ -49,7 +49,6 @@
 		13B07F961A680F5B00A75B9A /* templateReactNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = templateReactNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = templateReactNative/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = templateReactNative/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = templateReactNative/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = templateReactNative/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = templateReactNative/main.m; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		2D02E47B1E0B4A5D006451C7 /* templateReactNative-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "templateReactNative-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* templateReactNative-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "templateReactNative-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45372A68D1BDC3BF5D2ECA3C /* libPods-templateReactNative-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-templateReactNative-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5091AE6524EC388F000B08B2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = templateReactNative/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		624DC710E9E50F02F8E098C9 /* Pods-templateReactNative-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateReactNative-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-templateReactNative-tvOSTests/Pods-templateReactNative-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		9972F2C26F2C7B88186A3109 /* Pods-templateReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateReactNative.release.xcconfig"; path = "Target Support Files/Pods-templateReactNative/Pods-templateReactNative.release.xcconfig"; sourceTree = "<group>"; };
 		B55A76A64E3FFA42D51D19EE /* Pods-templateReactNative-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateReactNative-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-templateReactNative-tvOS/Pods-templateReactNative-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,12 +125,12 @@
 		13B07FAE1A68108700A75B9A /* templateReactNative */ = {
 			isa = PBXGroup;
 			children = (
+				5091AE6524EC388F000B08B2 /* LaunchScreen.storyboard */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = templateReactNative;
@@ -194,7 +194,6 @@
 				17F21D74B0C3BE7C75CA9001 /* Pods-templateReactNative-tvOSTests.debug.xcconfig */,
 				624DC710E9E50F02F8E098C9 /* Pods-templateReactNative-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -339,7 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				5091AE6624EC388F000B08B2 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,18 +565,6 @@
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13B07FB21A68108700A75B9A /* Base */,
-			);
-			name = LaunchScreen.xib;
-			path = templateReactNative;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
