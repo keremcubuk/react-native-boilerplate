@@ -14,7 +14,6 @@ enableES5(); // For EcmaScript support. If you erase this line you can get an er
 
 export const initialState = {};
 
-/* eslint-disable default-case, no-param-reassign */
 const appReducer = (state = initialState, action) =>
   produce(state, (/* draft */) => {
     switch (action.type) {

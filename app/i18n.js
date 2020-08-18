@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 /**
  * i18n.js
  *
