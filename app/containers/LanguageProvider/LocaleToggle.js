@@ -12,8 +12,8 @@ import { connect } from 'react-redux';
 import { createSelector } from 'reselect';
 
 import { appLocales } from 'app/i18n';
-import { changeLocale } from 'containers/LanguageProvider/actions';
-import { makeSelectLocale } from 'containers/LanguageProvider/selectors';
+import { changeLocale } from './actions';
+import { makeSelectLocale } from './selectors';
 import messages from './messages';
 
 export function LocaleToggle(props) {
