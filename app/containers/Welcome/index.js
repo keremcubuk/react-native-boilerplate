@@ -10,7 +10,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import { compose } from 'redux';
-import { injectIntl, intlShape } from 'react-intl';
+import { useIntl } from 'react-intl';
 
 import LocaleToggle from 'containers/LanguageProvider/LocaleToggle';
 
@@ -24,6 +24,7 @@ import images from 'images';
 import { styles } from './styles';
 
 export function Welcome(props) {
+  const { formatMessage } = useIntl();
   useInjectReducer({ key: 'welcome', reducer });
   useInjectSaga({ key: 'welcome', saga });
 
@@ -32,14 +33,14 @@ export function Welcome(props) {
       <Image source={images.concept} resizeMode="cover" style={styles.bgImage} />
       <ScrollView style={{ minHeight: Dimensions.get('window').height }}>
         <View style={styles.textWrapper}>
-          <Text style={styles.text}>{props.intl.formatMessage(messages.hello)}</Text>
+          <Text style={styles.text}>{formatMessage(messages.hello)}</Text>
           <Image source={images.logo} resizeMode="contain" />
           <Text style={styles.textBold}>React Native Boilerplate</Text>
 
-          <Text style={styles.text}>{props.intl.formatMessage(messages.explanation)}</Text>
+          <Text style={styles.text}>{formatMessage(messages.explanation)}</Text>
 
           <View style={styles.infoTextWrapper}>
-            <Text styles={styles.text}>{props.intl.formatMessage(messages.goDocs)}</Text>
+            <Text styles={styles.text}>{formatMessage(messages.goDocs)}</Text>
             <Button
               color="#12D4C1"
               title="--> Github"
@@ -49,11 +50,11 @@ export function Welcome(props) {
             />
           </View>
           <View style={styles.helpWrapper}>
-            <Text styles={styles.text}>{props.intl.formatMessage(messages.readyToDev)} 🚀</Text>
+            <Text styles={styles.text}>{formatMessage(messages.readyToDev)} 🚀</Text>
             <Button color="#12D4C1" title="--> Go to Help Screen" onPress={() => props.navigation.navigate('Help')} />
           </View>
           <View style={styles.langWrapper}>
-            <Text>{props.intl.formatMessage(messages.chooseLanguage)}</Text>
+            <Text>{formatMessage(messages.chooseLanguage)}</Text>
             <View style={styles.localeWrapper}>
               <LocaleToggle />
             </View>
@@ -66,7 +67,6 @@ export function Welcome(props) {
 
 Welcome.propTypes = {
   dispatch: PropTypes.func.isRequired,
-  intl: intlShape,
 };
 
 const mapStateToProps = createStructuredSelector({
@@ -84,4 +84,4 @@ const withConnect = connect(
   mapDispatchToProps,
 );
 
-export default compose(withConnect)(injectIntl(Welcome));
+export default compose(withConnect)(Welcome);
