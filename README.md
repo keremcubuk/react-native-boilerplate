@@ -98,7 +98,7 @@ npm run rename <YOUR_PROJECT_NAME>
 
 > Note: Before `npm install`
 
-### 4. Android and iOS runnning is different. So that follow the steps below.
+#### 4. Android and iOS runnning is different. So that follow the steps below.
 
 <b>IOS</b>:
 
@@ -117,7 +117,7 @@ npm run android # to run the Android application
 
 Start the server:
 ```command
-npm start	npm start
+npm start
 ```
 
 Now you're ready to rumble!
