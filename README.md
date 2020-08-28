@@ -8,18 +8,21 @@
 <br />
 
 <div align="center">
+  <a href="https://github.com/keremcubuk/react-native-boilerplate/blob/master/LICENSE.md">
+    <img alt="GitHub license" src="https://img.shields.io/github/license/keremcubuk/react-native-boilerplate">
+  </a>
   <!-- Dependency Status -->
   <a href="https://david-dm.org/keremcubuk/react-native-boilerplate">
     <img src="https://david-dm.org/keremcubuk/react-native-boilerplate/status.svg" alt="Dependency Status" />
   </a>
-  <!-- devDependency Status -->
-  <a href="https://david-dm.org/keremcubuk/react-native-boilerplate?type=dev" title="devDependencies status">
-    <img src="https://david-dm.org/keremcubuk/react-native-boilerplate/dev-status.svg" alt="devDependency Status"/>
-  </a>
-  <!-- Build Status -->
-  <a href="https://travis-ci.org/keremcubuk/react-native-boilerplate">
-    <img src="https://travis-ci.org/keremcubuk/react-native-boilerplate.svg?branch=master" alt="Build Status" />
-  </a>
+
+  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/keremcubuk/react-native-boilerplate">
+
+  <!-- Pull Request Status -->
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
+
+
+
 
 </div>
 
@@ -73,23 +76,53 @@ But wait... there's more!
 
 <!-- There’s also a <a href="https://vimeo.com/168648012">fantastic video</a> on how to structure your React.js apps with scalability in mind. It provides rationale for the majority of boilerplate's design decisions. -->
 
-<sub><i>Keywords: React Native, React.js, Redux, Fast Refresh, ESNext, Babel, react-navigation, Offline First, ServiceWorker, `styled-components`, redux-saga, FontFaceObserver</i></sub>
+<sub><i>Keywords: React Native, React.js, Redux, Fast Refresh, ESNext, Babel, react-navigation, Offline First, ServiceWorker, redux-saga</i></sub>
 
 ## Quick start
 
-1.  Make sure that you have Node.js v8.15.1 and npm v5 or above installed.
-2.  Clone this repo using `git clone --depth=1 https://github.com/keremcubuk/react-native-boilerplate.git <YOUR_PROJECT_NAME>`
-3.  Move to the appropriate directory: `cd <YOUR_PROJECT_NAME>`.<br />
-4.  Run `react-native-rename <YOUR_PROJECT_NAME>` before `npm install`.
-5.  Android and iOS runnning is different. So that follow the steps below.
-    - For iOS `cd ios` and run `pod install`. Go to directory '`cd ..`' and run `react-native run-ios`
-    - For Android `react-native run-android`.
-6.  Finally, you are ready to start development.
-<!-- 4.  Run `npm run setup` in order to install dependencies and clean the git repo.<br />
-    _At this point you can run `npm start` to see the example app at `http://localhost:3000`._ -->
-<!-- 5.  Run `npm run clean` to delete the example app. -->
+#### 1. Clone repository
+ ```command
+git clone --depth=1 https://github.com/keremcubuk/react-native-boilerplate.git <YOUR_PROJECT_NAME>
+```
+
+#### 2.  Move to the appropriate directory:
+```command
+cd <YOUR_PROJECT_NAME>
+```
+
+#### 3. Rename the project: 
+
+```command
+npm run rename <YOUR_PROJECT_NAME>
+```
+
+> Note: Before `npm install`
+
+### 4. Android and iOS runnning is different. So that follow the steps below.
+
+<b>IOS</b>:
+
+```command
+npx pod-install # to install pod dependencies
+npm run ios     # to run the iOS application
+```
+
+<b>Android</b>:
+
+```command
+# Make sure the ANDROID_HOME environment variable is configured properly
+
+npm run android # to run the Android application
+```
+
+Start the server:
+```command
+npm start	npm start
+```
 
 Now you're ready to rumble!
+
+<br/>
 
 > Please note that this boilerplate is **production-ready and not meant for beginners**! If you're just starting out with react or redux, please refer to https://github.com/petehunt/react-howto instead. If you want a solid, battle-tested base to build your next product upon and have some experience with react, this is the perfect start for you.
 
@@ -106,12 +139,8 @@ Now you're ready to rumble!
 
 ## Contributors
 
-I'm looking for new contrubitors for project.
+Contributions of any kind welcome!
 
-
-<!-- ## Supporters
-
-This project would not be possible without the support of these amazing folks. [**Become a sponsor**](https://opencollective.com/react-boilerplate) to get your company in front of thousands of engaged react developers and help us out! -->
 
 ## License
 
