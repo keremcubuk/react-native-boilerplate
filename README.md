@@ -37,7 +37,6 @@
 
 ### Website: <a href="https://reactnativeboilerplate.dev/">reactnativeboilerplate.dev</a>
 
-<br />
 
 ### Motivation: 
 While creating this project, I always need to a react-native standart for our team. When we start to new project, we always spend too much time. So that, we created [`react-native-boilerplate`](https://reactnativeboilerplate.dev/) and we wanted to share with the community.
