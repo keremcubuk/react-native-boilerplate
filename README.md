@@ -21,7 +21,8 @@
   <!-- Pull Request Status -->
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
 
-
+  <!-- Discord -->
+  <img alt="Discord" src="https://img.shields.io/discord/751550248069103676?label=discord&color=7389D8&logo=discord">
 
 
 </div>
@@ -32,8 +33,14 @@
   <sub>Created by <a href="https://twitter.com/mxstbr">Kerem Çubuk</a> and maintained with ❤️ by an amazing idea reinforced with <a href="https://github.com/react-boilerplate/react-boilerplate">react-boilerplate</a>.</sub>
 </div>
 
+<br />
+
+### Website: <a href="https://reactnativeboilerplate.dev/">reactnativeboilerplate.dev</a>
+
+<br />
+
 ### Motivation: 
-While creating this project, I always need to a react-native standart for our team. When we start to new project, we always spend too much time. So that, we created `react-native-boilerplate` and we wanted to share with the community.
+While creating this project, I always need to a react-native standart for our team. When we start to new project, we always spend too much time. So that, we created [`react-native-boilerplate`](https://reactnativeboilerplate.dev/) and we wanted to share with the community.
 
 ## Features
 
