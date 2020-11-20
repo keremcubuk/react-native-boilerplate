@@ -99,7 +99,7 @@ cd <YOUR_PROJECT_NAME>
 #### 3. Rename the project: 
 
 ```command
-npm run rename <YOUR_PROJECT_NAME>
+npx react-native-rename <YOUR_PROJECT_NAME>
 ```
 
 > Note: Before `npm install`
