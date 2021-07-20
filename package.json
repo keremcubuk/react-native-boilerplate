@@ -33,7 +33,7 @@
     "intl": "^1.2.5",
     "react": "^16.13.1",
     "react-intl": "5.6.5",
-    "react-native": "0.63.4",
+    "react-native": "0.64.1",
     "react-native-gesture-handler": "^1.9.0",
     "react-native-reanimated": "^1.13.2",
     "react-native-safe-area-context": "^3.1.9",
