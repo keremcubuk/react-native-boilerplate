@@ -20,9 +20,9 @@ export function LocaleToggle(props) {
   return (
     <Picker
       selectedValue={props.locale}
-      style={{ height: 50, width: 50 }}
-      onValueChange={(itemValue) => props.onLocaleToggle(itemValue)}>
-      {appLocales.map((locale) => (
+      style={{ height: 50, width: 100 }}
+      onValueChange={itemValue => props.onLocaleToggle(itemValue)}>
+      {appLocales.map(locale => (
         <Picker.Item key={locale} label={messages[locale].defaultMessage} value={locale} />
       ))}
     </Picker>
@@ -34,11 +34,11 @@ LocaleToggle.propTypes = {
   locale: PropTypes.string,
 };
 
-const mapStateToProps = createSelector(makeSelectLocale(), (locale) => ({ locale }));
+const mapStateToProps = createSelector(makeSelectLocale(), locale => ({ locale }));
 
 export function mapDispatchToProps(dispatch) {
   return {
-    onLocaleToggle: (locale) => dispatch(changeLocale(locale)),
+    onLocaleToggle: locale => dispatch(changeLocale(locale)),
     dispatch,
   };
 }

@@ -14,7 +14,7 @@ export const initialState = {
 };
 
 const languageProviderReducer = (state = initialState, action) =>
-  produce(state, (draft) => {
+  produce(state, draft => {
     switch (action.type) {
       case CHANGE_LOCALE:
         draft.locale = action.locale;

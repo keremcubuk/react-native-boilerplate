@@ -28,6 +28,6 @@ LanguageProvider.propTypes = {
   children: PropTypes.element.isRequired,
 };
 
-const mapStateToProps = createSelector(makeSelectLocale(), (locale) => ({ locale }));
+const mapStateToProps = createSelector(makeSelectLocale(), locale => ({ locale }));
 
 export default connect(mapStateToProps)(LanguageProvider);
