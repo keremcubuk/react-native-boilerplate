@@ -23,6 +23,8 @@ import messages from './messages';
 import images from 'images';
 import { styles } from './styles';
 
+import Animated, { LightSpeedInLeft, LightSpeedInRight, FadeInDown } from 'react-native-reanimated';
+
 export function Welcome(props) {
   const { formatMessage } = useIntl();
   useInjectReducer({ key: 'welcome', reducer });
@@ -35,8 +37,9 @@ export function Welcome(props) {
         <View style={styles.textWrapper}>
           <Text style={styles.text}>{formatMessage(messages.hello)}</Text>
           <Image source={images.logo} resizeMode="contain" />
-          <Text style={styles.textBold}>React Native Boilerplate</Text>
-
+          <Animated.View entering={LightSpeedInLeft.duration(1000).delay(100)}>
+            <Text style={styles.textBold}>React Native Boilerplate</Text>
+          </Animated.View>
           <Text style={styles.text}>{formatMessage(messages.explanation)}</Text>
 
           <View style={styles.infoTextWrapper}>
